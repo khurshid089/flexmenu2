@@ -1,3 +1,5 @@
+module.exports = flexMenu
+
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
         define(['jquery'], factory);
@@ -28,7 +30,7 @@
                 'threshold' : 2,
                 'cutoff' : 2,
                 'undo' : false,
-                'shouldApply' : function() { return true; },
+                'shouldApply' : function() { return true; }
             }, options);
         this.options = s;
         checkFlexObject = $.inArray(this, flexObjects);
@@ -37,7 +39,7 @@
         } else {
             flexObjects.push(this);
         }
-        return this.each(function (e) {
+        return this.each(function () {
             var $this = $(this),
                 $items = $this.find('li'),
                 $firstItem = $items.first(),
@@ -47,8 +49,7 @@
                 firstItemHeight = Math.floor($firstItem.outerHeight(true)),
                 $btn;
             function needsMenu($itemOfInterest) {
-                var result = (Math.ceil($itemOfInterest.offset().top) >= (firstItemTop + firstItemHeight)) ? true : false;
-                return result;
+                return (Math.ceil($itemOfInterest.offset().top) >= (firstItemTop + firstItemHeight)) ? true : false;
             }
             if (needsMenu($lastItem) && numItems > s.threshold && !s.undo && $this.is(':visible') && (s.shouldApply()))  {
                 $this.append('<span class="more-btn">☰ MORE</span>');

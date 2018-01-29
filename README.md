@@ -79,7 +79,7 @@ If this is true, we'll move the list items back to where they were before, and r
 
 flexmenu2 is licensesed under the MIT License, and is free for commercial or personal use.
 
-Copyright &copy; 2012-2014 352 Inc. & Contributors
+Copyright &copy; 2018 reachdevelopers.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

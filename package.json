@@ -6,6 +6,20 @@
   "scripts": {
     "test": "flexmenu"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mylastore/flexmenu2"
+  },
+  "author": "Oscar Quinteros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mylastore/flexmenu2/issues"
+  },
+  "homepage": "https://github.com/352Media/flexMenu#readme",
+  "keywords": [
+    "menu",
+    "navigation",
+    "responsive",
+    "collapse"
+  ]
 }
