@@ -1,5 +1,11 @@
+ul.flex{
+    margin: 0;
+    padding: 0;
+}
+
 ul.flex li {
     display: inline-block;
+    margin-right: 5px;
 }
 
 ul.flex.overflow {

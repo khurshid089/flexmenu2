@@ -3,14 +3,14 @@
 <!--[if gte IE 8]><!--> <html lang="en-us" class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>flexMenu!</title>
-    <meta name="description" content="flexMenu is a jQuery plugin that lets you create responsive menu bars that automatically collapse into a "more" drop-down when they run out of space.
-    ">
+    <title>flexMenu2!</title>
+    <meta name="description" content="flexMenu is a jQuery plugin that lets you create responsive menu bars that automatically collapse into a drop-down when they run out of space.">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="flex.css">
 </head>
 <body>
-    <div style="display: block;max-width: 960px;margin: auto">
+    <div style="display:block;max-width: 960px;margin: auto">
+        <h3>One menu</h3>
         <ul class="flex">
             <li class="selected"><a href="#0" class="active">Home Page</a></li>
             <li><a href="#0">Contact Us</a></li>
@@ -18,9 +18,17 @@
             <li><a href="#0">Company Blog</a></li>
             <li><a href="#0">Company Resources</a></li>
         </ul>
+        <h3>Multiple menus - no problem</h3>
+        <ul class="flex">
+            <li class="selected"><a href="#0" class="active">Home Page</a></li>
+            <li><a href="#0">Contact Us</a></li>
+            <li><a href="#0">About Us</a></li>
+            <li><a href="#0">Company Blog</a></li>
+            <li><a href="#0">Company Resources</a></li>
+            <li><a href="#0">Multiple Menus</a></li>
+        </ul>
         <h2>Ready to get started?</h2>
         <p>A quick overview is available below. You can <a href="https://github.com/mylastore/flexmenu2">view flexMenu on GitHub</a> to get more details and grab a copy of the plugin.</p>
-
         <h2>The Markup</h2>
         <pre>
     &lt;ul class="flex"&gt;
@@ -29,6 +37,8 @@
     &lt;/ul&gt;</pre>
         <h2>The JavaScript</h2>
         <pre>$('ul.flex').flexMenu();</pre>
+        <h2>The CSS</h2>
+        <p>Add flex.css to your project.</p>
     </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="index.js"></script>

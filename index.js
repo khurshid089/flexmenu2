@@ -1,5 +1,10 @@
 module.exports = flexMenu
-
+/**
+ * Create a new flexMenu.
+ */
+function flexMenu() {
+    if (!(this instanceof flexMenu)) return new flexMenu();
+}
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
         define(['jquery'], factory);
@@ -58,11 +63,9 @@ module.exports = flexMenu
                 $btn.click(function (e){
                     e.preventDefault();
                     $this.toggleClass('open');
-
                     var $parent = $(e.target).parent('li');
                     $parent.addClass("selected");
                     $parent.siblings('li').removeClass('selected');
-
                 });
                 $items.click(function () {
                     $btn.trigger('click');
