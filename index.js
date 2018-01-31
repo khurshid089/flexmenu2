@@ -1,4 +1,4 @@
-module.exports = flexMenu
+module.exports = flexMenu();
 /**
  * Create a new flexMenu.
  */
@@ -32,8 +32,7 @@ function flexMenu() {
     $.fn.flexMenu = function (options) {
         var checkFlexObject,
             s = $.extend({
-                'threshold' : 2,
-                'cutoff' : 2,
+                'threshold' : 2, // example if threshold is 5 and there are only 5 list items the dropdown won't trigger.
                 'undo' : false,
                 'shouldApply' : function() { return true; }
             }, options);
@@ -56,25 +55,19 @@ function flexMenu() {
             function needsMenu($itemOfInterest) {
                 return (Math.ceil($itemOfInterest.offset().top) >= (firstItemTop + firstItemHeight)) ? true : false;
             }
-            if (needsMenu($lastItem) && numItems > s.threshold && !s.undo && $this.is(':visible') && (s.shouldApply()))  {
-                $this.append('<span class="more-btn">☰ MORE</span>');
+            if ( needsMenu($lastItem) && numItems > s.threshold && !s.undo && (s.shouldApply()) )  {
+                $this.append('<span class="more-btn">&#9776; MORE</span>');
                 $this.addClass('overflow');
                 $btn = $this.find('span.more-btn');
                 $btn.click(function (e){
                     e.preventDefault();
                     $this.toggleClass('open');
-                    var $parent = $(e.target).parent('li');
-                    $parent.addClass("selected");
-                    $parent.siblings('li').removeClass('selected');
+                    console.log('open')
                 });
-                $items.click(function () {
-                    $btn.trigger('click');
-                });
-            } else if (s.undo) {
+            } else if ( s.undo ) {
                 $this.find('span.more-btn').remove();
                 $this.removeClass('overflow');
             }
         });
     };
 }));
-// example usage: $('ul').flexMenu();

@@ -64,6 +64,10 @@ ul.flex.overflow li a {
     cursor: pointer;
 }
 
+ul.flex li a.active{
+    color: red;
+}
+
 ul.flex.overflow li a.active {
     text-align: center;
     background: transparent;

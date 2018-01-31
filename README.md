@@ -9,13 +9,13 @@ The original flexMenu is written by [Ryan DeBeasi](http://www.ryandebeasi.com/) 
 
 npm install flexmenu2
 
-Next, create an unordered list that contains your menu items. In CSS, use `display: inline-block;` or `float: left;` to get the  `li` elements to line up horizontally.
+Next, copy the flex.css from the example directory and used it on your projects. 
 
 Finally, call flexMenu on an unordered list that contains your menu items:
 
 ```javascript
 $( document ).ready(function() {
-  $('ul').flexMenu();
+  $('ul.flex').flexMenu();
 });
 ```
 
@@ -26,7 +26,7 @@ The plugin can be loaded using an AMD loader such as RequireJS:
 ```javascript
 require(['jquery', 'flexmenu'], function ($) {
   $( document ).ready(function() {
-    $('ul').flexMenu();
+    $('ul.flex').flexMenu();
   });
 });
 ```
@@ -34,15 +34,11 @@ require(['jquery', 'flexmenu'], function ($) {
 ## Dependencies
 
 ### jQuery
-I've tested the plugin in jQuery 1.7-1.12. It probably works on older versions, but I haven't tested on those.
+Tested in jQuery 1.7-1.12. It probably works on older versions.
 
 ## Advanced usage
 
 If you're feeling fancy, you can include any of the following options when calling flexMenu:
-
-### linkText
-(string, defaults to 'More')
-What text should we display on the "view  more" link?
 
 ### linkTitle
 (string, defaults to 'View More')
@@ -59,10 +55,6 @@ If we hit the cutoff and collapse all the links into the dropdown, what should t
 ### shouldApply
 (function)
 Should we apply now ? Function called before moving anything. If it returns false, we'll move the list items back to where they were before, and remove the "View More" link.
-
-### undo
-(boolean, defaults to 'false')
-If this is true, we'll move the list items back to where they were before, and remove the "View More" link. This is useful if you actually _do_ want list items to stack in some cases, or if you want to recalculate the menu.
 
 
 ## License
