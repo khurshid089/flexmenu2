@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d3acd3e3-eef8-4d61-9657-40e17122b873" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/flex.css" afterPath="$PROJECT_DIR$/example/flex.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/index.js" afterPath="$PROJECT_DIR$/example/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.min.js" afterPath="$PROJECT_DIR$/index.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
@@ -37,12 +35,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
               <caret line="24" column="647" lean-forward="false" selection-start-line="24" selection-start-column="647" selection-end-line="24" selection-end-column="647" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+                <folding>
+                  <marker date="1517528372598" expanded="true" signature="592:622" ph="{...}" />
+                  <marker date="1517528372598" expanded="true" signature="773:846" ph="{...}" />
+                  <marker date="1517528372598" expanded="true" signature="808:842" ph="{...}" />
+                  <marker date="1517528372598" expanded="true" signature="1122:1208" ph="{...}" />
+                  <marker date="1517528372598" expanded="true" signature="1148:1204" ph="{&quot;linkText&quot;: 'MY MENU'...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -69,12 +86,12 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/example/index.html" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/example/flex.css" />
         <option value="$PROJECT_DIR$/example/index.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/index.min.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -268,7 +285,7 @@
       <workItem from="1517267725128" duration="3927000" />
       <workItem from="1517352019603" duration="8446000" />
       <workItem from="1517422275728" duration="4300000" />
-      <workItem from="1517434378208" duration="22013000" />
+      <workItem from="1517434378208" duration="22077000" />
     </task>
     <task id="LOCAL-00001" summary="do not add">
       <created>1517252809971</created>
@@ -396,11 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517527986726</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="css link correction">
+      <created>1517528358743</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1517528358743</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47667000" />
+    <option name="totallyTimeSpent" value="47731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1922" height="1080" extended-state="6" />
@@ -454,7 +478,8 @@
     <MESSAGE value="jquery options bug fixed and minify" />
     <MESSAGE value="bug fixes on menu links" />
     <MESSAGE value="update package.json version" />
-    <option name="LAST_COMMIT_MESSAGE" value="update package.json version" />
+    <MESSAGE value="css link correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="css link correction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -491,11 +516,11 @@
           <first_editor relative-caret-position="660">
             <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
             <folding>
-              <marker date="1517527644546" expanded="true" signature="592:622" ph="{...}" />
-              <marker date="1517527644546" expanded="true" signature="773:846" ph="{...}" />
-              <marker date="1517527644546" expanded="true" signature="808:842" ph="{...}" />
-              <marker date="1517527644546" expanded="true" signature="1122:1208" ph="{...}" />
-              <marker date="1517527644546" expanded="true" signature="1148:1204" ph="{&quot;linkText&quot;: 'MY MENU'...}" />
+              <marker date="1517528372598" expanded="true" signature="592:622" ph="{...}" />
+              <marker date="1517528372598" expanded="true" signature="773:846" ph="{...}" />
+              <marker date="1517528372598" expanded="true" signature="808:842" ph="{...}" />
+              <marker date="1517528372598" expanded="true" signature="1122:1208" ph="{...}" />
+              <marker date="1517528372598" expanded="true" signature="1148:1204" ph="{&quot;linkText&quot;: 'MY MENU'...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -661,11 +686,11 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1517527644546" expanded="true" signature="592:622" ph="{...}" />
-              <marker date="1517527644546" expanded="true" signature="773:846" ph="{...}" />
-              <marker date="1517527644546" expanded="true" signature="808:842" ph="{...}" />
-              <marker date="1517527644546" expanded="true" signature="1122:1208" ph="{...}" />
-              <marker date="1517527644546" expanded="true" signature="1148:1204" ph="{&quot;linkText&quot;: 'MY MENU'...}" />
+              <marker date="1517528372598" expanded="true" signature="592:622" ph="{...}" />
+              <marker date="1517528372598" expanded="true" signature="773:846" ph="{...}" />
+              <marker date="1517528372598" expanded="true" signature="808:842" ph="{...}" />
+              <marker date="1517528372598" expanded="true" signature="1122:1208" ph="{...}" />
+              <marker date="1517528372598" expanded="true" signature="1148:1204" ph="{&quot;linkText&quot;: 'MY MENU'...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -711,35 +736,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-            <folding>
-              <marker date="1517527644546" expanded="true" signature="592:622" ph="{...}" />
-              <marker date="1517527644546" expanded="true" signature="773:846" ph="{...}" />
-              <marker date="1517527644546" expanded="true" signature="808:842" ph="{...}" />
-              <marker date="1517527644546" expanded="true" signature="1122:1208" ph="{...}" />
-              <marker date="1517527644546" expanded="true" signature="1148:1204" ph="{&quot;linkText&quot;: 'MY MENU'...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/npm-debug.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,6 +771,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="24" column="647" lean-forward="false" selection-start-line="24" selection-start-column="647" selection-end-line="24" selection-end-column="647" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+            <folding>
+              <marker date="1517528372598" expanded="true" signature="592:622" ph="{...}" />
+              <marker date="1517528372598" expanded="true" signature="773:846" ph="{...}" />
+              <marker date="1517528372598" expanded="true" signature="808:842" ph="{...}" />
+              <marker date="1517528372598" expanded="true" signature="1122:1208" ph="{...}" />
+              <marker date="1517528372598" expanded="true" signature="1148:1204" ph="{&quot;linkText&quot;: 'MY MENU'...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>
