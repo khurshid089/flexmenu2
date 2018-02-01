@@ -47,8 +47,10 @@ function flexMenu() {
     $.fn.flexMenu = function (options) {
         var checkFlexObject,
             s = $.extend({
-                'threshold' : 2, // example if threshold is 5 and there are only 5 list items the dropdown won't trigger.
+                'threshold' : 2,
                 'undo' : false,
+                'linkText' : '&#9776; MORE',
+                'linkTitle' : 'Open/Close Menu',
                 'shouldApply' : function() { return true; }
             }, options);
         this.options = s;
@@ -71,7 +73,7 @@ function flexMenu() {
                 return (Math.ceil($itemOfInterest.offset().top) >= (firstItemTop + firstItemHeight)) ? true : false;
             }
             if ( needsMenu($lastItem) && numItems > s.threshold && !s.undo && (s.shouldApply()) )  {
-                $this.append('<span class="more-btn">&#9776; MORE</span>');
+                $this.append('<span class="more-btn" title="' + s.linkTitle + '">' + s.linkText + '</span>');
                 $this.addClass('overflow');
                 $btn = $this.find('span.more-btn');
                 $btn.click(function (e){

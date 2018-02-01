@@ -1,4 +1,4 @@
-# flexmenu2 1.0.9
+# flexmenu2 1.1.0
 flexmenu2 is a jQuery plugin that lets you create responsive menus that automatically collapse into a drop-down when they run out of space.
 
 [Source on GitHub](https://github.com/mylastore/flexmenu2)
@@ -38,21 +38,24 @@ Tested in jQuery 1.7-1.12. It probably works on older versions.
 
 If you're feeling fancy, you can include any of the following options when calling flexMenu:
 
+example usage: 
+
+```javascript
+$( document ).ready(function() {
+  $('ul.flex').flexMenu({
+    linkText: 'MY MENU',
+    linkTitle: 'MY TITLE'
+  });
+});
+```
+
 ### linkTitle
-(string, defaults to 'View More')
+(string, defaults to 'Open/Close Menu')
 What should the title of the "view more" button be?
 
-### linkTextAll
-(string, defaults to 'Menu')
+### linkTex
+(string, defaults to '&#9776; MORE')
 If we hit the cutoff and collapse all the links into the dropdown, what text should we display on the "menu" link?
-
-### linkTitleAll
-(string, defaults to 'Menu')
-If we hit the cutoff and collapse all the links into the dropdown, what should the title of the "menu" link be?
-
-### shouldApply
-(function)
-Should we apply now ? Function called before moving anything. If it returns false, we'll move the list items back to where they were before, and remove the "View More" link.
 
 
 ## License
