@@ -18,15 +18,16 @@ function flexMenu() {
     function uniqId() {
         return Math.round(new Date().getTime() + (Math.random() * 100));
     }
-    $('ul.flex').attr('flexId', uniqId );
-    var $el = $('ul.flex li');
-    $el.on('click', function () {
-        console.log('el clicked')
-        $(this).parent().removeClass('open');
-        $(this).find('a').addClass('active');
-        $(this).addClass('selected');
-        $(this).siblings('li').removeClass('selected');
-        $(this).siblings().children('a').removeClass('active');
+    $('document').ready(function () {
+        $('ul.flex').attr('flexId', uniqId );
+        var $el = $('ul.flex li');
+        $el.on('click', function () {
+            $(this).parent().removeClass('open');
+            $(this).find('a').addClass('active');
+            $(this).addClass('selected');
+            $(this).siblings('li').removeClass('selected');
+            $(this).siblings().children('a').removeClass('active');
+        });
     });
     $('head').append('<style type="text/css">ul.flex{margin:0;padding:0}ul.flex li{display:inline-block;margin-right:5px}ul.flex.overflow{position:relative;padding:2px;width:100%}ul.flex.overflow.open{max-height:100%}ul.flex.overflow.open>li{visibility:visible;display:block;margin:3px 0;cursor:pointer}ul.flex.overflow.open>li:first-of-type{margin:2px}ul.flex.overflow.open>li:first-of-type a{width:90%!important}ul.flex.overflow.open>li a:not(.selected){width:100%}ul.flex.overflow.open>li a:not(.active){padding-right:0}ul.flex.overflow li{visibility:hidden;display:none}ul.flex.overflow li.selected{visibility:visible;color:#666;padding:0;border-radius:20px;min-width:80px;text-decoration:none;display:inline-block;background:#fff;white-space:nowrap}ul.flex.overflow li a{text-align:left;width:80%;cursor:pointer}ul.flex li a.active{color:red}ul.flex.overflow li a.active{text-align:center;background:0 0}ul.flex.overflow .more-btn{float:right;color:#666;font-weight:700;position:absolute;top:8px;right:10px;cursor:pointer;z-index:100}ul.flex.overflow>li{clear:both;float:none}</style>');
     function adjustFlexMenu() {
