@@ -9,8 +9,6 @@ The original flexMenu is written by [Ryan DeBeasi](http://www.ryandebeasi.com/) 
 
 npm install flexmenu2
 
-Next, copy the flex.css from the example directory and used it on your projects. 
-
 Finally, call flexMenu on an unordered list that contains your menu items:
 
 ```javascript
