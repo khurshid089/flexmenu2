@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3acd3e3-eef8-4d61-9657-40e17122b873" name="Default" comment="Update the clicking of the open and close menu now by clicking&#10;at the list item will also trigger close on the dropdown and &#10;other minor fixes.">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/flexmenu.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+    <list default="true" id="d3acd3e3-eef8-4d61-9657-40e17122b873" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -310,7 +307,7 @@
       <workItem from="1517434378208" duration="22680000" />
       <workItem from="1517537483348" duration="66000" />
       <workItem from="1517594764256" duration="1985000" />
-      <workItem from="1517596772085" duration="6549000" />
+      <workItem from="1517596772085" duration="6606000" />
     </task>
     <task id="LOCAL-00001" summary="do not add">
       <created>1517252809971</created>
@@ -494,11 +491,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517605608853</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Update the clicking of the open and close menu now by clicking&#10;at the list item will also trigger close on the dropdown and &#10;other minor fixes.">
+      <created>1517605681821</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1517605681821</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56934000" />
+    <option name="totallyTimeSpent" value="56991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1922" height="1080" extended-state="6" />
