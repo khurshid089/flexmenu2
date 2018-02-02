@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <h3>One menu</h3>
+        <h3>Only one menu</h3>
         <ul class="flex">
             <li class="selected"><a href="#0" class="active">Home Page</a></li>
             <li><a href="#0">Contact Us</a></li>
@@ -18,6 +18,8 @@
             <li><a href="#0">Company Blog</a></li>
             <li><a href="#0">Company Resources</a></li>
         </ul>
+        <div style="height: 20px;display: block;width: 100%;"></div>
+
         <h3>Multiple menus - no problem</h3>
         <ul class="flex">
             <li class="selected"><a href="#0" class="active">Home Page</a></li>
@@ -27,21 +29,33 @@
             <li><a href="#0">Company Resources</a></li>
             <li><a href="#0">Multiple Menus</a></li>
         </ul>
+        <div style="height: 20px;display: block;width: 100%;"></div>
+        <ul class="flex">
+            <li class="selected"><a href="#0" class="active">Home Page</a></li>
+            <li><a href="#0">Contact Us</a></li>
+            <li><a href="#0">About Us</a></li>
+            <li><a href="#0">Company Blog</a></li>
+            <li><a href="#0">Reach Developers</a></li>
+            <li><a href="#0">Company Resources</a></li>
+            <li><a href="#0">Multiple Menus</a></li>
+        </ul>
+        <div style="height: 20px;display: block;width: 100%;"></div>
         <h2>Ready to get started?</h2>
         <p>A quick overview is available below. You can <a href="https://github.com/mylastore/flexmenu2">view flexMenu on GitHub</a> to get more details and grab a copy of the plugin.</p>
+        <div style="height: 20px;display: block;width: 100%;"></div>
         <h2>The Markup</h2>
         <pre>
     &lt;ul class="flex"&gt;
         &lt;li&gt;&lt;a href="page.html"&gt;Menu Item&lt;/a&gt;&lt;/li&gt;
         &lt;!-- more list items... --&gt;
     &lt;/ul&gt;</pre>
-        <h2>The JavaScript</h2>
+        <div style="height: 20px;display: block;width: 100%;"></div>
+
+        <h2>The jQuery</h2>
         <pre>$('ul.flex').flexMenu();</pre>
-        <h2>The CSS</h2>
-        <p>Add flex.css to your project.</p>
     </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script src="index.js"></script>
+<script src="index.min.js"></script>
 <script>
     $('ul.flex').flexMenu();
 </script>
