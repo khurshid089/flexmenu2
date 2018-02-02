@@ -22,7 +22,9 @@ function flexMenu() {
         $('ul.flex').attr('flexId', uniqId );
         var $el = $('ul.flex li');
         $el.on('click', function () {
-            $(this).parent().removeClass('open');
+            if ($(this).parent().hasClass('overflow')){
+                $(this).parent().toggleClass('open');
+            }
             $(this).find('a').addClass('active');
             $(this).addClass('selected');
             $(this).siblings('li').removeClass('selected');
