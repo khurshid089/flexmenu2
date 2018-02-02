@@ -1,4 +1,4 @@
-# flexmenu2 1.1.2
+# flexmenu2 1.1.3
 flexmenu2 is a jQuery plugin that lets you create responsive menus that automatically collapse into a drop-down when they run out of space.
 
 [Source on GitHub](https://github.com/mylastore/flexmenu2)
@@ -51,7 +51,7 @@ $( document ).ready(function() {
 
 ### linkTitle
 (string, defaults to 'Open/Close Menu')
-What should the title of the "view more" button be?
+What should the title of the "&#9776; MORE" button be?
 
 ### linkTex
 (string, defaults to '&#9776; MORE')
