@@ -1,7 +1,7 @@
 # flexmenu2 1.1.3
 flexmenu2 is a jQuery plugin that lets you create responsive menus that automatically collapse into a drop-down when they run out of space.
 
-[Source on GitHub](https://github.com/mylastore/flexmenu2)
+[Source on GitHub](https://github.com/reachdevelopers/flexmenu2)
 
 The original flexMenu is written by [Ryan DeBeasi](http://www.ryandebeasi.com/) and [their fantastic contributors](https://github.com/352Media/flexMenu/graphs/contributors). Please got their respective links for info.
 
