@@ -21,8 +21,8 @@ $( document ).ready(function() {
 
 ```html
 <ul class="flex">
-    <li class="selected"><a class="active" href="/home">Home</a></ul>
-    <li><a href="/about">About</a></ul>
+    <li class="selected"><a class="active" href="/home">Home</a></li>
+    <li><a href="/about">About</a></li>
 </ul>
 ```
 
