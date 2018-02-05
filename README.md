@@ -1,9 +1,9 @@
-# flexmenu2 1.1.4
+# flexmenu2 1.1.5
 flexmenu2 is a jQuery plugin that lets you create responsive menus that automatically collapse into a drop-down when they run out of space.
 
 [Source on GitHub](https://github.com/reachdevelopers/flexmenu2)
 
-The original flexMenu is written by [Ryan DeBeasi](http://www.ryandebeasi.com/) and [their fantastic contributors](https://github.com/352Media/flexMenu/graphs/contributors). Please got their respective links for info.
+The original flexMenu is written by [Ryan DeBeasi](https://github.com/352Media/flexMenu) and [their fantastic contributors](https://github.com/352Media/flexMenu/graphs/contributors). Please got their respective links for info.
 
 ## Usage
 
@@ -15,6 +15,15 @@ Finally, call flexMenu on an unordered list that contains your menu items:
 $( document ).ready(function() {
   $('ul.flex').flexMenu();
 });
+```
+
+**<span style="color:red;">!important:</span>** Make sure you add class "selected" to first 'li' and class "active" for firs anchor tag for the menu active states to worked. See example directory.
+
+```html
+<ul class="flex">
+    <li class="selected"><a class="active" href="/home">Home</a></ul>
+    <li><a href="/home">About</a></ul>
+</ul>
 ```
 
 ### AMD/RequireJS
@@ -32,7 +41,7 @@ require(['jquery', 'flexmenu'], function ($) {
 ## Dependencies
 
 ### jQuery
-Tested in jQuery 1.7-1.12. It probably works on older versions.
+Tested in jQuery 1.7&nbsp;-&nbsp;1.12. It probably works on older versions.
 
 ## Advanced usage
 
