@@ -17,7 +17,7 @@ $( document ).ready(function() {
 });
 ```
 
-**<span style="color:red;">!important:</span>** Make sure you add class "selected" to first 'li' and class "active" for firs anchor tag for the menu active states to worked. See example directory.
+**<span style="color:red;">!important:</span>** Make sure you add class "selected" on the first 'li' and class "active" on the first anchor tag for the menu active states to worked. See example directory.
 
 ```html
 <ul class="flex">
