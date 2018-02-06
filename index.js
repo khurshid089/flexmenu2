@@ -21,7 +21,7 @@ function flexMenu() {
     function uniqId() {
         return Math.round(new Date().getTime() + (Math.random() * 100));
     }
-    $('document').ready(function () {
+    $(document).ready(function () {
         $('ul.flex').attr('flexId', uniqId );
         var $el = $('ul.flex li');
         $el.on('click', function () {
