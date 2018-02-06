@@ -14,7 +14,7 @@ function flexMenu() {
         // Browser globals
         factory(jQuery);
     }
-}(function ($, window, document, undefined) {
+}(function ($) {
     var windowWidth = $(window).width();
     var windowHeight = $(window).height();
     var flexObjects = [];
