@@ -1,8 +1,13 @@
 (function (factory) {
-    if(typeof module === "object" && typeof module.exports === "object") {
-        module.exports = factory(require("jquery"), window, document);
+    if (typeof define === 'function' && define.amd) {
+        // AMD. Register as an anonymous module.
+        define(['jquery'], factory);
+    } else if (typeof exports === 'object') {
+        // Node/CommonJS
+        module.exports = factory(require('jquery'));
     } else {
-        factory(jQuery, window, document);
+        // Browser globals
+        factory(jQuery);
     }
 }(function ($) {
     var windowWidth = $(window).width();
