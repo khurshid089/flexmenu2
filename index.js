@@ -1,17 +1,15 @@
 module.exports = flexMenu();
-/**
- * Create a new flexMenu.
- */
 function flexMenu() {
     if (!(this instanceof flexMenu)) return new flexMenu();
 }
+
 (function (factory) {
-    if (typeof define === 'function' && define.amd) {
-        define(['jquery'], factory);
+    if(typeof module === "object" && typeof module.exports === "object") {
+        module.exports = factory(require("jquery"), window, document);
     } else {
-        factory(jQuery);
+        factory(jQuery, window, document);
     }
-}(function ($) {
+}(function ($, window, document, undefined) {
     var windowWidth = $(window).width();
     var windowHeight = $(window).height();
     var flexObjects = [];

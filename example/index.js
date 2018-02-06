@@ -1,8 +1,8 @@
 (function (factory) {
-    if (typeof define === 'function' && define.amd) {
-        define(['jquery'], factory);
+    if(typeof module === "object" && typeof module.exports === "object") {
+        module.exports = factory(require("jquery"), window, document);
     } else {
-        factory(jQuery);
+        factory(jQuery, window, document);
     }
 }(function ($) {
     var windowWidth = $(window).width();
