@@ -4,14 +4,14 @@ function flexMenu() {
 }
 
 (function (factory) {
+    if(typeof window === "undefined"){
+        return false;
+    }
     if (typeof define === 'function' && define.amd) {
-        // AMD. Register as an anonymous module.
         define(['jquery'], factory);
     } else if (typeof exports === 'object') {
-        // Node/CommonJS
         module.exports = factory(require('jquery'));
     } else {
-        // Browser globals
         factory(jQuery);
     }
 }(function ($) {
